@@ -1,0 +1,6 @@
+{
+  "name": "awake",
+  "description": "Keep your screen awake for a specified or infinite duration with automated battery protection and quick settings notification toggles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

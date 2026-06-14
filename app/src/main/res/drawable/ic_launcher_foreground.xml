@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Star/Sun central core -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,40 A14,14 0 1,1 53.9,40 Z" />
+    <!-- Concentration boundary ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M54,26 A28,28 0 1,1 53.9,26 Z" />
+    <!-- Light radiations / cursor lines -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M54,6 L54,16 M54,92 L54,102 M6,54 L16,54 M92,54 L102,54 M20,20 L28,28 M80,80 L88,88 M20,80 L28,72 M80,20 L88,28" />
+</vector>
